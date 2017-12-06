@@ -8,12 +8,12 @@ default: &default
 
 development:
   <<: *default
-  database: ideator_development
+  database: flimster-review-app_development
 
 test:
   <<: *default
-  database: ideator_test
+  database: flimster-review-app_test
 
 production:
   <<: *default
-  database: ideator_production
+  database: flimster-review-app_production
