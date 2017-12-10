@@ -29,7 +29,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'simple_form'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+# gem 'uglifier', :git => 'https://github.com/lautis/uglifier.git', :ref => '9abd18da4f5eb2fb4b5aab8023f08470221743c1'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
