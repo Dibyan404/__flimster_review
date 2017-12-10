@@ -1,0 +1,39 @@
+$primary-font:'Roboto', sans-serif;
+$secondary-font:'Dosis', sans-serif;
+$footer-height: 45px;  
+
+.navbar-default {
+    font-family: $secondary-font;
+}
+
+/* Styles go here */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html,
+body {
+ height: 100%;
+ /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+ min-height: 100%;
+ height: auto;
+ /* Negative indent footer by its height */
+ margin: 0 auto -$footer-height;
+ /* Pad bottom by footer height */
+ padding: 0 0 $footer-height;
+}
+
+
+.footer {
+ height: $footer-height;
+}
+
+
+.container {
+    width: 700px;
+    padding-top: 100px;
+    
+}
